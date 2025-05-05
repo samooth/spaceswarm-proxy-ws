@@ -1,17 +1,17 @@
 {
-  "name": "hyperswarm-proxy-ws",
-  "version": "1.2.0",
-  "description": "Proxy hyperswarm connections over websockets with auto-reconnect logic",
+  "name": "spaceswarm-proxy-ws",
+  "version": "0.0.1",
+  "description": "Proxy spaceswarm connections over websockets with auto-reconnect logic",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RangerMauve/hyperswarm-proxy-ws.git"
+    "url": "git+https://github.com/samooth/spaceswarm-proxy-ws.git"
   },
   "keywords": [
-    "hyperswarm",
+    "spaceswarm",
     "ws",
     "websocket",
     "dat"
@@ -19,15 +19,15 @@
   "author": "rangermauve",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RangerMauve/hyperswarm-proxy-ws/issues"
+    "url": "https://github.com/samooth/spaceswarm-proxy-ws/issues"
   },
-  "homepage": "https://github.com/RangerMauve/hyperswarm-proxy-ws#readme",
+  "homepage": "https://github.com/samooth/spaceswarm-proxy-ws#readme",
   "dependencies": {
-    "hyperswarm-proxy": "^1.4.0",
+    "spaceswarm-proxy": "latest",
     "websocket-stream": "^5.5.0"
   },
   "devDependencies": {
-    "hyperswarm": "^2.2.1",
+    "spaceswarm": "latest",
     "get-port": "^5.0.0",
     "tape": "^4.11.0"
   }

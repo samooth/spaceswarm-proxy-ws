@@ -1,8 +1,8 @@
-const HyperswarmProxyServer = require('hyperswarm-proxy/server')
+const spaceswarmProxyServer = require('spaceswarm-proxy/server')
 const websocket = require('websocket-stream')
 const http = require('http')
 
-class HyperswarmProxyWSServer extends HyperswarmProxyServer {
+class spaceswarmProxyWSServer extends spaceswarmProxyServer {
   constructor (opts = {}) {
     super(opts)
     const { server } = opts
@@ -30,4 +30,4 @@ class HyperswarmProxyWSServer extends HyperswarmProxyServer {
   }
 }
 
-module.exports = HyperswarmProxyWSServer
+module.exports = spaceswarmProxyWSServer
